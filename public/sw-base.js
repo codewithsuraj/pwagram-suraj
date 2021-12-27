@@ -1,4 +1,4 @@
-importScripts('workbox-sw.prod.v2.1.3.js');
+importScripts('workbox-sw.prod.v2.0.0.js');
 importScripts('/src/js/idb.min.js')
 importScripts('/src/js/utility.min.js')
 

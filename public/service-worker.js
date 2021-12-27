@@ -1,4 +1,4 @@
-importScripts('workbox-sw.prod.v2.1.3.js');
+importScripts('workbox-sw.prod.v2.0.0.js');
 importScripts('/src/js/idb.min.js')
 importScripts('/src/js/utility.min.js')
 
@@ -96,8 +96,8 @@ workboxSW.precache([
     "revision": "3817e20bd704457b5e74a39596a40d3e"
   },
   {
-    "url": "workbox-sw.prod.v2.1.3.js.map",
-    "revision": "1cbd1bf8f8f05f7504355e0f7674b67e"
+    "url": "workbox-sw.prod.v2.0.0.js.map",
+    "revision": "ae41383395d43fd4c5b9678d3010a498"
   },
   {
     "url": "src/images/main-image-lg.jpg",
@@ -141,7 +141,7 @@ workboxSW.precache([
   },
   {
     "url": "src/js/utility.min.js",
-    "revision": "9bae712bdbf6391045d77bcda374dbb8"
+    "revision": "9f30f6edba80f64ec10e550f3b274c0a"
   }
 ]);
 
