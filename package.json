@@ -1,6 +1,9 @@
 {
   "name": "PWAGram-Suraj",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.17.6"
+  },
   "description": "A complete guide to PWAs. Building a simple Instagram clone.",
   "main": "app.js",
   "scripts": {
