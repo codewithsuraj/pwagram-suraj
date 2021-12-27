@@ -1,4 +1,4 @@
-const _apiBaseUrl = window.location.origin
+const _apiBaseUrl = window.location.origin;
 
 var dbPromise = idb.open('posts-store', 1, (db) => {
     if (!db.objectStoreNames.contains('posts')) {
