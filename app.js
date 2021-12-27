@@ -79,7 +79,7 @@ app.post('/posts', upload.single('file'), async (req, res) => {
                     pushConfig,
                     JSON.stringify({
                         title: "New Post",
-                        content: "New Post added!",
+                        content: "New Post is added!",
                         openUrl: "/help"
                     })
                 ).catch(function (err) {
