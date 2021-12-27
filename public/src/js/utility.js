@@ -1,5 +1,5 @@
 // const _apiBaseUrl = "http://localhost:3000"
-const _apiBaseUrl = window.location.host
+const _apiBaseUrl = window.location.origin
 
 var dbPromise = idb.open('posts-store', 1, (db) => {
     if (!db.objectStoreNames.contains('posts')) {
