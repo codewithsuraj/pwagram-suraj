@@ -22,7 +22,7 @@ function getMyLocation(lat, lng) {
     })
     .then((data) => {
       console.log(data.address);
-      locationInput.value = data.address.city + ', ' + data.address.state + ', ' + data.address.country
+      locationInput.value = data.address.state + ', ' + data.address.country
     })
 }
 
@@ -191,6 +191,7 @@ function createCard(data) {
   cardTitle.className = 'mdl-card__title';
   cardTitle.style.backgroundImage = 'url(' + data.image + ')';
   cardTitle.style.backgroundSize = 'cover';
+  cardTitle.style.height = '500px';
   cardWrapper.appendChild(cardTitle);
   var cardTitleTextElement = document.createElement('h2');
   cardTitleTextElement.style.color = 'white';
